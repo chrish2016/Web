@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Getting Started</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('h4').click(function(){
+        alert('hello');
+      })
+    });
+    </script>
+    <!-- <script>
+    $(document).ready(function(){
+      $('h3').hover(function(){
+        alert('yo, …this is H3.')
+      });
+    });
+    </script> -->
+    <script>
+  $(document).ready(function(){
+    var myText = $('.myParagraph').text();
+    alert(myText);
+  });
+</script>
+
+  </head>
+
+<body>
+    <p class='myParagraph'>This is my paragraph, turkey! </p>
+    <h4>Click Me!</h4>
+    <h4>Click Me, Too!</h4>
+    <h3>Just hover over this.</h3>
+  </body>
+</html>
